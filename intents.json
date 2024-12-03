@@ -1,0 +1,79 @@
+
+[
+    {
+        "tag": "greeting",
+        "patterns": ["Hello", "Hi", "Good morning", "Good evening", "Hey there"],
+        "responses": ["Hello! How can I assist you today?", "Hi! What can I do for you?", "Hey! How can I help?"]
+    },
+    {
+        "tag": "farewell",
+        "patterns": ["Goodbye", "See you", "Bye", "Take care"],
+        "responses": ["Goodbye! Have a great day!", "Bye! See you soon.", "Take care!"]
+    },
+    {
+        "tag": "thank_you",
+        "patterns": ["Thanks", "Thank you", "I appreciate it", "Much obliged"],
+        "responses": ["You're welcome! Happy to help.", "No problem at all!", "Anytime!"]
+    },
+    {
+        "tag": "help",
+        "patterns": ["Help", "I need assistance", "Can you help me?"],
+        "responses": ["Of course! What do you need help with?", "Sure, let me know your query."]
+    },
+    {
+        "tag": "weather",
+        "patterns": ["What's the weather like?", "Tell me the weather"],
+        "responses": ["I'm unable to check the weather at the moment, but you can try using weather apps or sites!"]
+    },
+    {
+        "tag": "date_time",
+        "patterns": ["What's the time?", "What's today's date?"],
+        "responses": ["The current date is [date] and the time is [time]."]
+    },
+    {
+        "tag": "about_chatbot",
+        "patterns": ["Tell me about yourself", "Who are you?"],
+        "responses": ["I'm your friendly chatbot assistant, here to help you!", "I'm a chatbot created to assist with your queries."]
+    },
+    {
+        "tag": "small_talk",
+        "patterns": ["How are you?", "What's up?", "How's it going?"],
+        "responses": ["I'm just a program, but I'm here to help you! How can I assist?", "I'm doing well, thank you! How about you?"]
+    },
+    {
+        "tag": "joke",
+        "patterns": ["Tell me a joke", "Make me laugh"],
+        "responses": ["Why don’t skeletons fight each other? They don’t have the guts!", "Why did the scarecrow win an award? Because he was outstanding in his field!"]
+    },
+    {
+        "tag": "general_knowledge",
+        "patterns": ["Who is the president of the US?", "What's the capital of France?"],
+        "responses": ["The president of the US is [current president]. The capital of France is Paris."]
+    },
+    {
+        "tag": "programming_assistance",
+        "patterns": ["How do I write a loop in Python?", "What's an API?"],
+        "responses": ["To write a loop in Python: `for i in range(5): print(i)`.", "An API stands for Application Programming Interface."]
+    },
+    {
+        "tag": "math_operations",
+        "patterns": ["What's 5 + 7?", "Calculate 15 times 3."],
+        "responses": ["The result is [calculated value].", "Let me do the math for you: [calculated value]."]
+    },
+    {
+        "tag": "feedback",
+        "patterns": ["I have feedback", "Can I give a suggestion?"],
+        "responses": ["I'd love to hear your feedback! Please share your thoughts.", "Sure, I'm here to listen to your feedback."]
+    },
+    {
+        "tag": "appointment",
+        "patterns": ["Book an appointment", "Schedule a meeting at 3 PM."],
+        "responses": ["Your appointment has been noted for 3 PM. Let me know if there's anything else!", "Consider it scheduled!"]
+    },
+    {
+        "tag": "learning_recommendations",
+        "patterns": ["Recommend a Python course", "How do I learn machine learning?"],
+        "responses": ["I recommend starting with free resources like Kaggle, Coursera, or YouTube tutorials!", "You can try courses on platforms like Udemy or Coursera."]
+    }
+]
+    
